@@ -1,0 +1,127 @@
+body {
+    background-color: #e0dcfc;
+    display: block;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    width: 400px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    background-color: #665CAC;
+    color:white;
+    font-size: 30px;
+    border-style: solid;
+    border-color: #665CAC;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.adding {
+    width:653px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-style: solid;
+    border-color: #665CAC;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+label {
+    color: #665CAC;
+}
+
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#665CAC;
+    border-style: solid;
+    border-color: #665CAC;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#add {
+    transition: .3s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e0dcfc;
+    color: #665CAC;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #665CAC;
+}
+
+#add:hover
+{
+    color: white;
+    background-color: #665CAC;
+}
+
+.container
+{
+    width:700px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#e0dcfc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.initial 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#665CAC;
+    font-weight: bold;
+    text-align: center;
+}
+
+.displaying
+{
+    width: 650px;
+    height: 50px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color:#665CAC;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #665CAC;
+    color:#e0dcfc;
+}
+
+.remove {
+    transition: .3s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fcdcdc;
+    color: #cf2323;
+    border-radius:2px;
+    border-style: solid;
+    border-color: #cf2323;
+}
+
+.remove:hover 
+{
+    color: white;
+    background-color: #cf2323;
+}
+

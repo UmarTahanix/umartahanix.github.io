@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contacts</title>
+</head>
+<body>
+    
+    <h1>Contact List</h1>
+    <form autocomplete="off" class="adding">
+        <label for="name_adding">Name: </label>
+        <input type="text" id="name" autocomplete="off">
+        <label for="number_adding">Phone Number: </label>
+        <input type="text" id="number" autocomplete="off" pattern="[0-9]*" inputmode="numeric">
+        <button type="button" id="add">Add</button>
+    </form>   
+    <div class="container"></div>
+    <script src="contact.js"></script>  
+</body>
+</html>
